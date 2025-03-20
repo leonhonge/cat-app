@@ -1,0 +1,46 @@
+/* making the background of page pretty */
+body{
+    background-color: blueviolet;
+    justify-content: space-around;
+}
+
+/* aligning the text of the button the be in the center */
+.button-body{
+    text-align: center;
+}
+
+/* customizing the button to match the aesthetic of the page */
+.cat-button{
+    background-color: aqua;
+    margin-bottom: 25%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    width: 30%;
+    height: 30%;
+}
+
+/* adding styling for when hoving over the button */
+.cat-button:hover{
+    background-color: greenyellow;
+}
+
+/* restricting the size of the cat image so it does not fill the whole screen */
+.cat-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* making sure the cat image maintains proper aspect ratio */
+.cat-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
