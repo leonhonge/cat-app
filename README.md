@@ -7,7 +7,7 @@ To run the website, make sure to have Docker installed:
 To clone the repository, you can use these following commands:
 
 ```bash
-https://github.com/leonhonge/cat-app.git
+git clone https://github.com/leonhonge/cat-app.git
 cd cat-app
 ```
 
