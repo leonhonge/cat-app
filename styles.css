@@ -1,7 +1,6 @@
 /* making the background of page pretty */
 body{
     background-color: blueviolet;
-    justify-content: space-around;
 }
 
 /* aligning the text of the button the be in the center */
@@ -9,10 +8,10 @@ body{
     text-align: center;
 }
 
-/* customizing the button to match the aesthetic of the page */
+/* customizing the cat button to match the aesthetic of the page */
 .cat-button{
     background-color: aqua;
-    margin-bottom: 25%;
+    margin-top: 10px;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 20px;
@@ -21,7 +20,24 @@ body{
     height: 30%;
 }
 
-/* adding styling for when hoving over the button */
+/* customizing the favorite button to match the aesthetic of the page */
+.fav-button{
+    background-color: aqua;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    width: 30%;
+    height: 30%;
+}
+
+/* adding styling for when hoving over the fav button */
+.fav-button:hover{
+    background-color: greenyellow;
+}
+
+/* adding styling for when hoving over the cat button */
 .cat-button:hover{
     background-color: greenyellow;
 }
@@ -43,4 +59,42 @@ body{
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+}
+
+/* making sure that the bodies are next to each other */
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* making the left body larger than the right */
+.left-body{
+    width: 70%;
+    text-align: center;
+}
+
+/* making the right body smaller than the left */
+.right-body{
+    width: 30%;
+}
+
+/* style changes to the favorites heading */
+.favtitle{
+    margin-top: 50px;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+/* making sure the fav fit next to each other */
+.favorites-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+/* making sure the fav image maintains proper aspect ratio */
+.favorites-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }

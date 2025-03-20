@@ -9,14 +9,39 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <!-- Builds the button and cat container for the image -->
-        <div class = "button-body">
-            <div id="catcontainer" class = "cat-container"></div>
-            <button id = "catbut" class = "cat-button">
-                Show me a cute cat!
-            </button>
+        <div class = "main-container">
+            <div class = "left-body">
+                <div class = "button-body">
+                    <!-- Builds the previous button -->
+                    <button id = "prev" class= "cat-button">
+                        Previous Cat
+                    </button>
+                    <!-- Builds the next button -->
+                    <button id = "next" class = "cat-button">
+                        Next Cat
+                    </button>
+                    <!-- Builds the cat button and cat container for the image -->
+                    <div id="catcontainer" class = "cat-container"></div>
+                    <button id = "catbut" class = "cat-button">
+                        Show me a cute cat!
+                    </button>
+                </div>
+                <div class = "button-body">
+                    <!-- Builds the fav button -->
+                    <button id = "favbut" class = "fav-button">
+                        Add to favorites!
+                    </button>
+                </div>
+            </div>
+            <div class = "right-body">
+                <h2 class = "favtitle">
+                    FAVORITES
+                </h2>
+                <!-- Builds the fav container -->
+                <div id="favcontainer" class = favorites-container></div>
+            </div>
+            <!-- Connects the JS script -->
+            <script src="index.js"></script>
         </div>
-        <!-- Connects the JS script -->
-        <script src="index.js"></script>
     </body>
 </html>
