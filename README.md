@@ -25,7 +25,9 @@ The -p 8080:8080 flag maps the port 8080 from your local machine to port 8080 in
 You can access the local webpage using either:
 
 - http://127.0.0.1:8080
+
 OR
+
 - http://172.17.0.2:8080
 
 
